@@ -1,12 +1,10 @@
 # unique_with Validator Rule For Laravel
 
-[![Build Status](https://travis-ci.org/felixkiss/uniquewith-validator.svg?branch=master)](https://travis-ci.org/felixkiss/uniquewith-validator)
+[![Build Status](https://travis-ci.org/rtfmfm/uniquewith-validator.svg?branch=master)](https://travis-ci.org/rtfmfm/uniquewith-validator)
 
 This package contains a variant of the `validateUnique` rule for Laravel, that allows for validation of multi-column UNIQUE indexes.
 
 ## Documentation for older versions
-
- - [Laravel 4](https://github.com/felixkiss/uniquewith-validator/blob/2.0.8/README.md#laravel-4)
 
 ## Installation
 
@@ -14,7 +12,7 @@ Install the package through [Composer](http://getcomposer.org).
 On the command line:
 
 ```
-composer require felixkiss/uniquewith-validator
+composer require rtfmfm/uniquewith-validator
 ```
 
 ## Configuration
@@ -25,7 +23,7 @@ Add the following to your `providers` array in `config/app.php`:
 'providers' => [
     // ...
 
-    Felixkiss\UniqueWithValidator\ServiceProvider::class,
+   Rtfmfm\UniqueWithValidator\ServiceProvider::class,
 ],
 ```
 

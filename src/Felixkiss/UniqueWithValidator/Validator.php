@@ -1,4 +1,4 @@
-<?php namespace Felixkiss\UniqueWithValidator;
+<?php namespace Rtfmfm\UniqueWithValidator;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

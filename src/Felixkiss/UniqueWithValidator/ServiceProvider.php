@@ -1,4 +1,4 @@
-<?php namespace Felixkiss\UniqueWithValidator;
+<?php namespace Rtfmfm\UniqueWithValidator;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
@@ -25,7 +25,7 @@ class ServiceProvider extends BaseServiceProvider
         $this->app->validator->extend('unique_with', Validator::class . '@validateUniqueWith', $message);
         $this->app->validator->replacer('unique_with', function() {
             // Since 5.4.20, the validator is passed in as the 5th parameter.
-            // In order to preserve backwards compatibility, we check if the 
+            // In order to preserve backwards compatibility, we check if the
             // validator is passed and use the validator's translator instead
             // of getting it out of the container.
             $arguments = func_get_args();
