@@ -1,4 +1,4 @@
-<?php namespace spec\Felixkiss\UniqueWithValidator;
+<?php namespace spec\Rtfmfm\UniqueWithValidator;
 
 use PhpSpec\ObjectBehavior;
 
@@ -6,7 +6,7 @@ class RuleParserSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('Felixkiss\UniqueWithValidator\RuleParser');
+        $this->shouldHaveType('Rtfmfm\UniqueWithValidator\RuleParser');
     }
 
     function it_can_parse_the_table_name_correctly()

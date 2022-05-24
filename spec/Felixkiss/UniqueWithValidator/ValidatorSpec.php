@@ -1,4 +1,4 @@
-<?php namespace spec\Felixkiss\UniqueWithValidator;
+<?php namespace spec\Rtfmfm\UniqueWithValidator;
 
 use Illuminate\Contracts\Translation\Translator;
 use Illuminate\Validation\Factory;
@@ -25,7 +25,7 @@ class ValidatorSpec extends ObjectBehavior
 
     function it_is_initializable()
     {
-        $this->shouldHaveType('Felixkiss\UniqueWithValidator\Validator');
+        $this->shouldHaveType('Rtfmfm\UniqueWithValidator\Validator');
     }
 
     function it_passes_validation_if_presence_verifier_reports_no_existing_database_rows()

@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-0": {
-            "Felixkiss\\UniqueWithValidator\\": "src/"
+            "Rtfmfm\\UniqueWithValidator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Felixkiss\\UniqueWithValidator\\ServiceProvider"
+                "Rtfmfm\\UniqueWithValidator\\ServiceProvider"
             ]
         }
     },
